@@ -34,6 +34,8 @@
         </div>
       </div>
 
+      <div class="top-bg"></div>
+
       <div class="totals__parent">
         <div class="totals">
           <div class="card total__card total__card-1">
@@ -273,5 +275,13 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </div> -->
     </main>
+
+    <script>
+      document
+        .querySelector('div.toggle')
+        .addEventListener('click', function () {
+          document.querySelector('main').classList.toggle('light');
+        });
+    </script>
   </body>
 </html>
