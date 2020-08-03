@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | [Challenge Name Here]</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <main>
-      <div class="header">
-        <div class="header__main">
-          <h2>Social Media Dashboard</h2>
-          <p>Total Followers: 23,004</p>
-        </div>
-        <div class="header__mode">
-          <p>Dark Mode</p>
-          <div class="toggle">
-            <div class="ball"></div>
-          </div>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <div class="header__main">
+        <h2>Social Media Dashboard</h2>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="header__divider"></div>
+      <div class="header__mode">
+        <p>Dark Mode</p>
+        <div class="toggle">
+          <div class="ball"></div>
         </div>
       </div>
+    </div>
 
       <div class="top-bg"></div>
 
@@ -58,230 +53,177 @@
               12 Today
             </div>
           </div>
+        </div>
 
-          <div class="card total__card total__card-2">
-            <p class="total__card-handle">
-              <img
-                alt="Twitter"
-                class="total__card-icon"
-                src="./images/icon-twitter.svg"
-              />
-              @nathanf
-            </p>
-            <div class="total__card-tally">1044</div>
-            <div class="total__card-audience">Followers</div>
-            <div class="total__card-today">
-              <img
-                alt="Up"
-                class="total__card-net-icon"
-                src="./images/icon-up.svg"
-              />99 Today
+        <div class="card total__card total__card-2">
+          <p class="total__card-handle">
+            <img alt="Twitter" class="total__card-icon" src="./images/icon-twitter.svg" />
+            @nathanf
+          </p>
+          <div class="total__card-tally">1044</div>
+          <div class="total__card-audience">Followers</div>
+          <div class="total__card-today">
+            <img alt="Up" class="total__card-net-icon" src="./images/icon-up.svg" />99 Today
+          </div>
+        </div>
+
+        <div class="card total__card total__card-3">
+          <p class="total__card-handle">
+            <img alt="Instagram" class="total__card-icon" src="./images/icon-instagram.svg" />
+            @realnathanf
+          </p>
+          <div class="total__card-tally">11k</div>
+          <div class="total__card-audience">Followers</div>
+          <div class="total__card-today">
+            <img alt="Up" class="total__card-net-icon" src="./images/icon-up.svg" />1099 Today
+          </div>
+        </div>
+
+
+
+        <div class="card total__card total__card-4">
+          <p class="total__card-handle">
+            <img alt="YouTube" class="total__card-icon" src="./images/icon-youtube.svg" />
+            Nathan F.
+          </p>
+          <div class="total__card-tally">8239</div>
+          <div class="total__card-audience">Subscribers</div>
+          <div class="total__card-today">
+            <img alt="Up" class="total__card-net-icon" src="./images/icon-down.svg" />144 Today
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header__main">
+        <h2>Overview - Today</h2>
+      </div>
+    </div>
+
+    <div class="today__parent">
+      <div class="today">
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Page Views</div>
+            <div class="today__card-amount">87</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-facebook.svg" alt="Facebook" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-up.svg" alt="Up" />
+              <span class="today__card-value">3%</span>
             </div>
           </div>
-
-          <div class="card total__card total__card-3">
-            <p class="total__card-handle">
-              <img
-                alt="Instagram"
-                class="total__card-icon"
-                src="./images/icon-instagram.svg"
-              />
-              @realnathanf
-            </p>
-            <div class="total__card-tally">11k</div>
-            <div class="total__card-audience">Followers</div>
-            <div class="total__card-today">
-              <img
-                alt="Up"
-                class="total__card-net-icon"
-                src="./images/icon-up.svg"
-              />1099 Today
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Likes</div>
+            <div class="today__card-amount">52</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-facebook.svg" alt="Facebook" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-down.svg" alt="Down" class="down" />
+              <span class="today__card-value">2%</span>
             </div>
           </div>
-
-          <div class="card total__card total__card-4">
-            <p class="total__card-handle">
-              <img
-                alt="YouTube"
-                class="total__card-icon"
-                src="./images/icon-youtube.svg"
-              />
-              Nathan F.
-            </p>
-            <div class="total__card-tally">8239</div>
-            <div class="total__card-audience">Subscribers</div>
-            <div class="total__card-today">
-              <img
-                alt="Up"
-                class="total__card-net-icon"
-                src="./images/icon-down.svg"
-              />144 Today
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Likes</div>
+            <div class="today__card-amount">5462</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-instagram.svg" alt="Instagram" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-up.svg" alt="Up" />
+              <span class="today__card-value">2257%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Profile Views</div>
+            <div class="today__card-amount">52k</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-instagram.svg" alt="Instagram" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-up.svg" alt="Up" />
+              <span class="today__card-value">3%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Retweets</div>
+            <div class="today__card-amount">117</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-twitter.svg" alt="Twitter" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-up.svg" alt="Up" />
+              <span class="today__card-value">303%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Likes</div>
+            <div class="today__card-amount">507</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-twitter.svg" alt="Twitter" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-up.svg" alt="Up" />
+              <span class="today__card-value">553%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Likes</div>
+            <div class="today__card-amount">107</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-youtube.svg" alt="YouTube" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-down.svg" alt="Down" class="down" />
+              <span class="today__card-value">19%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card today__card">
+          <div class="today__card-left">
+            <div class="today__card-title">Total Views</div>
+            <div class="today__card-amount">1407</div>
+          </div>
+          <div class="today__card-right">
+            <img src="./images/icon-youtube.svg" alt="YouTube" class="today__card-icon" />
+            <div class="today__card-rate">
+              <img src="./images/icon-down.svg" alt="Down" class="down" />
+              <span class="today__card-value">12%</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="header">
-        <div class="header__main">
-          <h2>Overview - Today</h2>
-        </div>
-      </div>
-
-      <div class="today__parent">
-        <div class="today">
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Page Views</div>
-              <div class="today__card-amount">87</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-facebook.svg"
-                alt="Facebook"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-up.svg" alt="Up" />
-                <span class="today__card-value">3%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Likes</div>
-              <div class="today__card-amount">52</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-facebook.svg"
-                alt="Facebook"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-down.svg" alt="Down" class="down" />
-                <span class="today__card-value">2%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Likes</div>
-              <div class="today__card-amount">5462</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-instagram.svg"
-                alt="Instagram"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-up.svg" alt="Up" />
-                <span class="today__card-value">2257%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Profile Views</div>
-              <div class="today__card-amount">52k</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-instagram.svg"
-                alt="Instagram"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-up.svg" alt="Up" />
-                <span class="today__card-value">3%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Retweets</div>
-              <div class="today__card-amount">117</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-twitter.svg"
-                alt="Twitter"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-up.svg" alt="Up" />
-                <span class="today__card-value">303%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Likes</div>
-              <div class="today__card-amount">507</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-twitter.svg"
-                alt="Twitter"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-up.svg" alt="Up" />
-                <span class="today__card-value">553%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Likes</div>
-              <div class="today__card-amount">107</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-youtube.svg"
-                alt="YouTube"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-down.svg" alt="Down" class="down" />
-                <span class="today__card-value">19%</span>
-              </div>
-            </div>
-          </div>
-          <div class="card today__card">
-            <div class="today__card-left">
-              <div class="today__card-title">Total Views</div>
-              <div class="today__card-amount">1407</div>
-            </div>
-            <div class="today__card-right">
-              <img
-                src="./images/icon-youtube.svg"
-                alt="YouTube"
-                class="today__card-icon"
-              />
-              <div class="today__card-rate">
-                <img src="./images/icon-down.svg" alt="Down" class="down" />
-                <span class="today__card-value">12%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="attribution">
+    <!-- <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Your Name Here</a>.
       </div> -->
-    </main>
-
-    <script>
+  </main>
+        <script>
       document
         .querySelector('div.toggle')
         .addEventListener('click', function () {
           document.querySelector('main').classList.toggle('light');
         });
     </script>
-  </body>
+</body>
+
 </html>
